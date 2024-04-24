@@ -1,0 +1,21 @@
+input:focus{
+    border-color: pink;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+input::placeholder{
+    color: rgba(250, 240, 240, 0.486);
+    text-align: center;
+    font-family: Verdana;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.zoom{
+    transition: .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
